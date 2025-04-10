@@ -25,5 +25,6 @@ matrix_t matrix_transpose(const matrix_t A);
 // Utility functions
 bool matrix_is_valid(const matrix_t matrix);
 void matrix_print(const matrix_t matrix);
+double matrix_at(const matrix_t matrix, size_t i, size_t j);
 
 #endif // MATRIX_H

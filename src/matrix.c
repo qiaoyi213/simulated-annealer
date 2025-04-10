@@ -110,3 +110,7 @@ matrix_t matrix_transpose(const matrix_t A) {
     
     return result;
 }
+
+double matrix_at(const matrix_t matrix, size_t i, size_t j) {
+    return matrix.elements[i*matrix.col + j];
+}
