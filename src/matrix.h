@@ -26,5 +26,5 @@ matrix_t matrix_transpose(const matrix_t A);
 bool matrix_is_valid(const matrix_t matrix);
 void matrix_print(const matrix_t matrix);
 double matrix_at(const matrix_t matrix, size_t i, size_t j);
-
+matrix_t matrix_set(const matrix_t matrix, size_t i, size_t j, double value);
 #endif // MATRIX_H
